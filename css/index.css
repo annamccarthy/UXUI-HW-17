@@ -1,0 +1,150 @@
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+body {
+    font-family: 'Sen', sans-serif;
+    background-color: #DEF6F3;
+}
+
+.navigation {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    position: relative;
+    padding: 1%;
+    background-color: #DEF6F3;
+    float: right;
+    font-size: 18px;
+}
+
+.nav-item {
+    display: inline-block;
+    background-color: #DEF6F3;
+    padding: 40px 40px 40px 20px;
+}
+
+.heroImg {
+    height: 500px;
+    padding: 25px;
+    margin-top: 100px;
+}
+
+.headshot {
+    border-radius: 100%;
+    float: left;
+    padding-right: 20px;
+}
+
+.content {
+    width: 750px;
+    margin: 0 auto;
+    height: 220px;
+    display: flex;
+}
+.content h1 {
+    align-self: flex-end;
+}
+
+span {
+    color: #F5867D;
+}
+
+footer {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.getInTouch {
+    float: left;
+    text-align: left;
+    width: 45%;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+}
+
+.seeMyWork {
+    float: right;
+    text-align: right;
+    width: 45%;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+}
+
+.footer-link-left {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.footer-link-right {
+    display: inline-block;
+    vertical-align: top;
+    text-align: righ;
+}
+
+.copyright {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    color: #74D2C7;
+}
+
+ul {
+    padding-left: 0px;
+    margin-top: 0%;
+}
+
+.myWork {
+    background-color: #ffffff;
+    width: 100%;
+    height: 850px;
+    padding-top: 80px;
+}
+
+.project {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.projectPhoto {
+    width: 300px;
+    align-items: center;
+    padding-right: 20px;
+}
+
+button {
+    background-color: #74D2C7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
